@@ -1,0 +1,235 @@
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+h2, footer > a, .p_h{
+    font-family: Formula1;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #BF1212;
+}
+a{
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    flex-basis: 100%;
+    background: #DC5E5E;
+    justify-content: center;
+}
+aside{
+    display: flex;
+    flex-basis: 5%;
+    flex-direction: column;
+    padding: 1rem;
+    background: #DC5E5E;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 89%;
+    padding: 1rem ;
+}
+footer{
+    display: flex;
+    flex-basis: 100%;
+    background: #864450;
+    justify-content: center;
+    align-items: center;
+    color: #D9D9D9;
+    height: 2rem;
+    font-family: Formula1;
+}
+article{
+    border-radius: 15px;
+}
+h1{
+    display: flex;
+    flex-basis: 99%;
+    justify-content: center;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    height: 6rem;
+    align-items: center;
+    font-size: 50px;
+    color: #0A405F;
+}
+h2{
+    display: flex;
+    flex-basis: 100%;
+    border-radius: 5px;
+    background-color: #DC5E5E;
+    color: #D9D9D9;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Formula1;
+}
+.p_h{
+    display: flex;
+    font-size: 1.3vw;
+    background: #DC5E5E;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #D9D9D9;
+    padding-bottom: 1rem;
+    font-family: Formula1
+}
+.art1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    background-color: #D9D9D9;
+    margin: 1rem;
+    height: 25rem;
+    align-self: center;
+}
+.art2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    background-color: #D9D9D9;
+    height: 26rem;
+    align-self: center;
+}
+.art3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 58%;
+    background-color: #D9D9D9;
+    height: auto;
+    margin: 1rem;
+}
+.art4{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #695F5F;
+    flex-basis: 46%;
+    justify-content: center;
+}
+.art5{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #695F5F;
+    flex-basis: 46%;
+    justify-content: center;
+}
+.art1 > p{
+    align-self: center;
+}
+.art3 > p{
+    align-self: center;
+}
+.zdjecia{
+    display: flex;
+    width: 6rem;
+    scale: 100%;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.logo{
+    display: flex;
+    border-radius: 5%;
+    margin: 1rem;
+    width: 27rem;
+    height: 27rem;
+}
+.art_logo{
+    display: flex;
+    flex-basis: 33%;
+    justify-content: center;
+}
+.bolid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 36%;
+    height: 21rem;
+    margin: 1rem;
+    border-radius: 15px;
+    align-self: center;
+}
+.Kierowca1{
+    display: flex;
+    width: 20rem;
+    border-radius: 15px;
+    align-items: center;
+    margin: 1rem;
+}
+.kierowcy{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+p{
+    font-size: 1.3vw;
+    margin: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Kierowca2{
+    display: flex;
+    width: 20rem;
+    border-radius: 15px;
+    margin: 1rem;
+}
+.pArt5{
+    display: flex;
+    border-radius: 5px;
+    margin: 1rem;
+    color: #D9D9D9;
+}
+.pArt6{
+    display: flex;
+    border-radius: 5px;
+    margin: 1rem;
+    color: #D9D9D9;
+}
+.cus{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    background: #DC5E5E;
+    justify-content: center;
+}
+.lefty{
+    font-size: 1.3vw;
+    display: flex;
+    flex-basis: 20%;
+    padding-left: 1rem;
+}
+.righty{
+    font-size: 1.3vw;
+    display: flex;
+    padding-left: 7rem;
+    padding-right: 2rem;
+}
+.center{
+    font-size: 1.3vw;
+    display: flex;
+    flex-basis: 80%;
+    padding-left: 30rem;
+}
+.zdj{
+    border-radius: 15px;
+}
+a:hover{
+    scale: 110%;
+}
+#fer{
+    width: 6.2rem;
+}
+footer > a{
+    text-decoration: none;
+    color: #D9D9D9;
+}
