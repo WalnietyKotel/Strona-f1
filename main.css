@@ -167,9 +167,11 @@ spa{
 }
 .p_spa{
     border: 3px solid black;
+    height: auto;
 }
 .p_monaco{
     border: 3px solid black;
+    height: auto;
 }
 monaco{
     display: flex;
@@ -177,6 +179,7 @@ monaco{
     flex-basis: 50%;
     background-color: #f0c1c1;
     justify-content: center;
+    height: 12rem;
 }
 .monaco{
     display: flex;
