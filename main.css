@@ -9,7 +9,7 @@ body{
 img{
     border-radius: 15px;
 }
-article{
+.article{
     background-color: #f0c1c1;
 }
 header{
@@ -60,14 +60,16 @@ main{
     flex-wrap: wrap;
     justify-content: space-evenly;
     background: #CC4D4D;
-    flex-basis: 90%;
+    flex-basis: 89%;
+    padding: 1rem;
+    padding-left: 3vw;
 }
 aside{
     display: flex;
-    flex-basis: 5%;
+    flex-basis: 10%;
     background: #953333;
     flex-direction: column;
-    padding: 1rem;
+    padding: 2vw;
 }
 footer{
     display: flex;
@@ -89,10 +91,11 @@ footer{
     background-color: #f0c1c1;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 60%;
+    flex-basis: 55%;
     justify-content: flex-start;
     border-radius: 15px;
-    align-self:center ;
+    align-self: center;
+    margin-bottom: 1rem;
 }
 .logoF1{
     display: flex;
@@ -105,42 +108,45 @@ footer{
 .art3{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 37%;
+    flex-basis: 33%;
     background-color: #f0c1c1;
     border-radius: 15px;
-    height: 18rem;
+    height: auto;
     align-self: center;
 }
 .favTrasy{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 60%;
+    flex-basis: 65%;
     background-color: #f0c1c1;
     border-radius: 25px;
-    height: 23.2rem;
+    height: auto;
     align-self: center;
 }
 .art4{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 98%;
-    background-color: #f0c1c1;
+    flex-basis: 70%;
+    background-color: #332727;
     border-radius: 15px;
-    height: 14rem;
+    height: auto;
+    align-self: center;
+    margin: 1rem;
 }
 .zdjecia{
     display: flex;
-    scale: 100%;
     flex-wrap: wrap;
-    gap: 50px;
+    flex-basis: 100%;
+    gap: 5vh;
     align-items: center;
     justify-content: center;
 }
 p{
     background-color: #f0c1c1;
     border-radius: 5px;
-    padding: 0.1rem;
+    padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
+    /* margin: 1vh; */
 }
 
 
@@ -166,12 +172,10 @@ spa{
     justify-content: center;
 }
 .p_spa{
-    border: 3px solid black;
-    height: auto;
+    padding: 0.1rem;
 }
 .p_monaco{
-    border: 3px solid black;
-    height: auto;
+    padding: 0.1rem;
 }
 monaco{
     display: flex;
@@ -211,14 +215,15 @@ table{
 }
 .tab1{
     display: flex;
-    flex-basis: 48%;
-    justify-content: center;
+    flex-basis: 50%;
     width: 100%;
+    height: auto;
 }
 .tab2{
     display: flex;
-    flex-basis: 48%;
-    justify-content: center;
+    flex-basis: 50%;
+    height: auto;
+    align-self: center;
 }
 td, th{
     font-size: 1.45vw;
@@ -240,9 +245,9 @@ td, th{
 a:hover{
     scale: 110%;
 }
-#fer{
-    width: 4.5rem;
-    height: 4.5rem;
+#logog{
+    width: 6vw;
+    height: 10vh;
 }
 footer > a{
     text-decoration: none;

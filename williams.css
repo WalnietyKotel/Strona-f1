@@ -31,8 +31,9 @@ aside{
 main{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 90%;
-    padding: 1rem ;
+    flex-basis: 88%;
+    padding: 1vw;
+    padding-left: 2vw;
 }
 footer{
     display: flex;
@@ -92,7 +93,7 @@ h2{
     flex-wrap: wrap;
     flex-basis: 33%;
     background-color: #D9D9D9;
-    height: 25rem;
+    height: auto;
     align-self: center;
 }
 .art3{
@@ -123,10 +124,10 @@ h2{
 }
 .zdjecia{
     display: flex;
-    width: 6rem;
-    scale: 100%;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 9vw;
+    align-items: center;
+    justify-content: center;
 }
 .logo{
     display: flex;
@@ -171,6 +172,7 @@ h2{
 p{
     font-size: 1.3vw;
     margin: 0.5rem;
+    padding: 1vw;
 }
 .Kierowca2{
     display: flex;

@@ -28,14 +28,15 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 90%;
+    flex-basis: 88%;
     padding: 1rem ;
+    padding-left: 2vw;
 }
 aside{
     display: flex;
     flex-basis: 5%;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1vw;
     background-color: #3b48bb;
 }
 footer{
@@ -129,13 +130,15 @@ h2{
     margin: 1rem;
     width: 27rem;
     height: 23rem;
+    align-self: center;
 }
 .zdjecia{
     display: flex;
     width: 6rem;
-    scale: 100%;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 8vw;
+    justify-content: center;
+    align-items: center;
 }
 .art_logo{
     display: flex;
@@ -150,6 +153,7 @@ h2{
     height: 18rem;
     margin: 1rem;
     border-radius: 15px;
+    align-self: center;
 }
 .Kierowca1{
     display: flex;
@@ -170,6 +174,7 @@ h2{
 p{
     font-size: 1.3vw;
     margin: 0.5rem;
+    margin: 1vw;
 }
 .Kierowca2{
     display: flex;
@@ -214,13 +219,13 @@ p{
 }
 .zdj{
     border-radius: 15px;
+    width: 6vw;
+    height: 10vh;
 }
 a:hover{
     scale: 110%;
 }
-#fer{
-    width: 6.2rem;
-}
+
 footer > a{
     text-decoration: none;
     color: #D9D9D9;
