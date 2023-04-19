@@ -227,6 +227,7 @@ table{
 }
 td, th{
     font-size: 1.45vw;
+    padding: .5rem;
 }
 .center{
     font-size: 1.3vw;
